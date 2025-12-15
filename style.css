@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    background: #364fc7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-text {
+    color: white;
+    z-index: 1;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #ffd43b;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.section.light {
+    background: #f8f9fa;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.form input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background: #364fc7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #364fc7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
